@@ -10,7 +10,32 @@
     <!-- My Style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="bg-light">
+    <div class="container-fluid bg-light">
+        
+        <div class="row bg-secondary text-white p-2"> <!-- set bg color to rgb(232,232,232) later -->
+
+            <div class="col-xs-12">
+                <h3>Local Note</h3>
+            </div>
+
+        </div> <!-- end of the first row, container for header -->
+
+        <div class="row">
+
+            <div class="col-sm-4"></div>
+
+            <div class="col-sm-4">
+                <div class="bg-white text-secondary my-4">
+                    <input class="w-100 border-0 p-2 rounded shadow" id="newNote" type="text" placeholder="New note ...">
+                </div>
+            </div>
+
+            <div class="col-sm-4"></div>
+
+        </div> <!-- end of the second row, container for new note menu-->
+
+    </div> <!-- end of main container -->
     
     <!-- JQuery 3.3.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
